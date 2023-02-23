@@ -1,0 +1,17 @@
+<h1>Search a GIF</h1>
+
+<div>
+    <!-- <h3>{{str}}</h3> -->
+    <a [href]="gif" target="_blank"><img [src]="gif" width="200px"></a>
+</div>
+<br>
+<div>
+    <form>
+        <input type="text" name="search" placeholder="search a gif..." [(ngModel)]="string">
+        <button (click)="getGif(string)">Search</button>
+    </form>
+</div>
+<br>
+<div style="text-align: center;">
+    <small>Powered by <a href="https://giphy.com/" target="_blank">Giphy</a></small>
+</div>

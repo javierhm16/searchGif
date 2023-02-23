@@ -1,0 +1,36 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+small {
+    text-align: center;
+}
+
+h3 {
+    margin-right: 10px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid rgb(58, 187, 163);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid rgb(58, 187, 163);
+    background-color: rgb(146, 229, 223);
+    padding: 10px;
+    cursor: pointer;
+}
