@@ -16,4 +16,6 @@ git clone https://github.com/javierhm16/searchGif.git
 
 Then go to the directory and run <code>npm install</code>
 
+Set your Giphy API Key in <code>src/environment/environment.prod.ts</code>
+
 To run it type <code>ng serve -o</code> in the command console
